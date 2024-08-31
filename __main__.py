@@ -3,6 +3,7 @@ from glob import glob
 from pydub import AudioSegment
 import numpy as np
 
+# This script is *still experimental* and may not work as expected.
 def convert_to_wav(files):
     try:
         for file in files:
